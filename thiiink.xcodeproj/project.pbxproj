@@ -16,6 +16,7 @@
 		0D04E97D2C4D582400FC940F /* thiiinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E97C2C4D582400FC940F /* thiiinkUITests.swift */; };
 		0D04E97F2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E97E2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift */; };
 		0D04E98F2C4D58DD00FC940F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E98E2C4D58DD00FC940F /* GameView.swift */; };
+		0D0728CB2C4D7F6C008F06E5 /* wordly.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D0728CA2C4D7F6C008F06E5 /* wordly.txt */; };
 		0D0BB1A22C4D762D007B3FE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0BB1A12C4D762D007B3FE6 /* ContentView.swift */; };
 		0DCBB35D2C4D5980006CCFF4 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3522C4D5980006CCFF4 /* Guess.swift */; };
 		0DCBB35E2C4D5980006CCFF4 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3542C4D5980006CCFF4 /* WordleDataModel.swift */; };
@@ -62,6 +63,7 @@
 		0D04E97E2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thiiinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0D04E98E2C4D58DD00FC940F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		0D0728C92C4D7C55008F06E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0D0728CA2C4D7F6C008F06E5 /* wordly.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = wordly.txt; sourceTree = "<group>"; };
 		0D0BB1A12C4D762D007B3FE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0DCBB3522C4D5980006CCFF4 /* Guess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
 		0DCBB3542C4D5980006CCFF4 /* WordleDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				0DCBB36D2C4D5A15006CCFF4 /* Global.swift */,
+				0D0728CA2C4D7F6C008F06E5 /* wordly.txt */,
 			);
 			path = DataContainers;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D04E9692C4D582400FC940F /* Preview Assets.xcassets in Resources */,
+				0D0728CB2C4D7F6C008F06E5 /* wordly.txt in Resources */,
 				0D04E9662C4D582400FC940F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

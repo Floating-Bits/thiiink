@@ -54,12 +54,40 @@ class WordleDataModel: ObservableObject {
     
     func newGame() {
         populateDefaults()
-        self.selectedWord = try! vocab.filter(#Predicate<String> { $0.count == 5 }).randomElement()?.uppercased() ?? "NODES"
+        self.selectedWord = getRandomWord()
         print("\(selectedWord)")
         self.currentWord = ""
         self.inPlay = true
         self.tryIndex = 0
         self.gameOver = false
+    }
+    
+    func getRandomWord() -> String {
+        guard let filePath = Bundle.main.path(forResource: "wordly", ofType: "txt") else {
+            print("File not found")
+            return "NOONE"
+        }
+        
+        do {
+            // Read the contents of the file into a string
+            let contents = try String(contentsOfFile: filePath, encoding: .utf8)
+            // Split the contents into an array of lines
+            let lines = contents.components(separatedBy: .newlines).filter { !$0.isEmpty }
+            
+            // Check if the file has any lines
+            guard !lines.isEmpty else {
+                print("File is empty")
+                return "NOONE"
+            }
+            
+            // Select a random line
+            let randomIndex = Int(arc4random_uniform(UInt32(lines.count)))
+            return lines[randomIndex].uppercased()
+            
+        } catch {
+            print("Error reading file: \(error.localizedDescription)")
+        }
+        return "NOONE"
     }
     
     func populateDefaults() {
