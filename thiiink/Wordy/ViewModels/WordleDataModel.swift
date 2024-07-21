@@ -54,7 +54,7 @@ class WordleDataModel: ObservableObject {
     
     func newGame() {
         populateDefaults()
-        self.selectedWord = try! vocab.filter(#Predicate<String> { $0.count == 5 }).randomElement()?.first?.uppercased() ?? "NODES"
+        self.selectedWord = try! vocab.filter(#Predicate<String> { $0.count == 5 }).randomElement()?.uppercased() ?? "NODES"
         print("\(selectedWord)")
         self.currentWord = ""
         self.inPlay = true

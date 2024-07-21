@@ -45,18 +45,18 @@ struct HomeView: View {
             }
             .toolbar {
                 ToolbarItem (placement: .navigationBarLeading) {
-                    Text("cluu")
+                    Text("think.")
                         .font(.title)
                         .fontWeight(.semibold)
                         .fontDesign(.rounded)
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        showingSettings.toggle()
-                    } label: {
-                        Image(systemName: "gearshape")
-                    }
-                }
+//                ToolbarItem(placement: .navigationBarTrailing) {
+//                    Button {
+//                        showingSettings.toggle()
+//                    } label: {
+//                        Image(systemName: "gearshape")
+//                    }
+//                }
             }
         }
     }

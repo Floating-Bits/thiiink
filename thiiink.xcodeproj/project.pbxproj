@@ -172,10 +172,9 @@
 		0D04E98C2C4D58AD00FC940F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D0728C82C4D78D0008F06E5 /* TabViews */,
 				0D04E98D2C4D58D500FC940F /* SubViews */,
 				0D04E95F2C4D582300FC940F /* thiiinkApp.swift */,
-				0D04E9612C4D582300FC940F /* HomeView.swift */,
-				0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */,
 				0D0BB1A12C4D762D007B3FE6 /* ContentView.swift */,
 			);
 			path = Views;
@@ -187,6 +186,15 @@
 				0D04E98E2C4D58DD00FC940F /* GameView.swift */,
 			);
 			path = SubViews;
+			sourceTree = "<group>";
+		};
+		0D0728C82C4D78D0008F06E5 /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				0D04E9612C4D582300FC940F /* HomeView.swift */,
+				0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */,
+			);
+			path = TabViews;
 			sourceTree = "<group>";
 		};
 		0DCBB3532C4D5980006CCFF4 /* Model */ = {
