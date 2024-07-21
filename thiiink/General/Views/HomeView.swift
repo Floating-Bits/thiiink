@@ -27,12 +27,12 @@ struct HomeView: View {
                             } label: {
                                 GameView(title: "Wordy", image: "wordly", description: "Guess Words from Clues.")
                             }
-                            NavigationLink {
+//                            NavigationLink {
 //                                    .environmentObject(WordleDataModel(vocab: vocab))
 //                                    .toolbar(.hidden, for: .tabBar)
-                            } label: {
-                                GameView(title: "WordMatch", image: "wordly", description: "Match Words with their Meaning.")
-                            }
+//                            } label: {
+//                                GameView(title: "WordMatch", image: "wordly", description: "Match Words with their Meaning.")
+//                            }
                         }
                         .tabViewStyle(.page)
                         .indexViewStyle(.page(backgroundDisplayMode: .never))
