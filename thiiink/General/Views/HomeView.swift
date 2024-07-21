@@ -22,15 +22,14 @@ struct HomeView: View {
                         TabView {
                             NavigationLink {
                                 WordyView()
-                                    .environmentObject(WordleDataModel(vocab: vocab))
+                                    .environmentObject(WordleDataModel(vocab: ["START", "NODES", "EVERY"]))
                                     .toolbar(.hidden, for: .tabBar)
                             } label: {
                                 GameView(title: "Wordy", image: "wordly", description: "Guess Words from Clues.")
                             }
                             NavigationLink {
-                                WordMatchView()
 //                                    .environmentObject(WordleDataModel(vocab: vocab))
-                                    .toolbar(.hidden, for: .tabBar)
+//                                    .toolbar(.hidden, for: .tabBar)
                             } label: {
                                 GameView(title: "WordMatch", image: "wordly", description: "Match Words with their Meaning.")
                             }

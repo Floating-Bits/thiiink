@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0D04E9602C4D582300FC940F /* thiiinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E95F2C4D582300FC940F /* thiiinkApp.swift */; };
-		0D04E9622C4D582300FC940F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E9612C4D582300FC940F /* ContentView.swift */; };
+		0D04E9622C4D582300FC940F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E9612C4D582300FC940F /* HomeView.swift */; };
 		0D04E9642C4D582300FC940F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E9632C4D582300FC940F /* Item.swift */; };
 		0D04E9662C4D582400FC940F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D04E9652C4D582400FC940F /* Assets.xcassets */; };
 		0D04E9692C4D582400FC940F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D04E9682C4D582400FC940F /* Preview Assets.xcassets */; };
 		0D04E9732C4D582400FC940F /* thiiinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E9722C4D582400FC940F /* thiiinkTests.swift */; };
 		0D04E97D2C4D582400FC940F /* thiiinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E97C2C4D582400FC940F /* thiiinkUITests.swift */; };
 		0D04E97F2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E97E2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift */; };
+		0D04E98F2C4D58DD00FC940F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04E98E2C4D58DD00FC940F /* GameView.swift */; };
+		0DCBB35D2C4D5980006CCFF4 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3522C4D5980006CCFF4 /* Guess.swift */; };
+		0DCBB35E2C4D5980006CCFF4 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3542C4D5980006CCFF4 /* WordleDataModel.swift */; };
+		0DCBB35F2C4D5980006CCFF4 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3562C4D5980006CCFF4 /* GuessView.swift */; };
+		0DCBB3602C4D5980006CCFF4 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3572C4D5980006CCFF4 /* KeyboardView.swift */; };
+		0DCBB3612C4D5980006CCFF4 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3582C4D5980006CCFF4 /* LetterButtonView.swift */; };
+		0DCBB3622C4D5980006CCFF4 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3592C4D5980006CCFF4 /* ToastView.swift */; };
+		0DCBB3632C4D5980006CCFF4 /* WordyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB35A2C4D5980006CCFF4 /* WordyView.swift */; };
+		0DCBB3662C4D59C8006CCFF4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3652C4D59C8006CCFF4 /* Color.swift */; };
+		0DCBB3692C4D59EC006CCFF4 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB3682C4D59EC006CCFF4 /* Shake.swift */; };
+		0DCBB36B2C4D59F5006CCFF4 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36A2C4D59F5006CCFF4 /* FlipView.swift */; };
+		0DCBB36E2C4D5A15006CCFF4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36D2C4D5A15006CCFF4 /* Global.swift */; };
+		0DCBB3702C4D5A96006CCFF4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +50,7 @@
 /* Begin PBXFileReference section */
 		0D04E95C2C4D582300FC940F /* thiiink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thiiink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D04E95F2C4D582300FC940F /* thiiinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thiiinkApp.swift; sourceTree = "<group>"; };
-		0D04E9612C4D582300FC940F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D04E9612C4D582300FC940F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0D04E9632C4D582300FC940F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		0D04E9652C4D582400FC940F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D04E9682C4D582400FC940F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +59,19 @@
 		0D04E9782C4D582400FC940F /* thiiinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thiiinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D04E97C2C4D582400FC940F /* thiiinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thiiinkUITests.swift; sourceTree = "<group>"; };
 		0D04E97E2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thiiinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D04E98E2C4D58DD00FC940F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		0DCBB3522C4D5980006CCFF4 /* Guess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		0DCBB3542C4D5980006CCFF4 /* WordleDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		0DCBB3562C4D5980006CCFF4 /* GuessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		0DCBB3572C4D5980006CCFF4 /* KeyboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		0DCBB3582C4D5980006CCFF4 /* LetterButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
+		0DCBB3592C4D5980006CCFF4 /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		0DCBB35A2C4D5980006CCFF4 /* WordyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordyView.swift; sourceTree = "<group>"; };
+		0DCBB3652C4D59C8006CCFF4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0DCBB3682C4D59EC006CCFF4 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		0DCBB36A2C4D59F5006CCFF4 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		0DCBB36D2C4D5A15006CCFF4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +122,8 @@
 		0D04E95E2C4D582300FC940F /* thiiink */ = {
 			isa = PBXGroup;
 			children = (
-				0D04E95F2C4D582300FC940F /* thiiinkApp.swift */,
-				0D04E9612C4D582300FC940F /* ContentView.swift */,
+				0D04E98B2C4D58A600FC940F /* General */,
+				0DCBB35C2C4D5980006CCFF4 /* Wordy */,
 				0D04E9632C4D582300FC940F /* Item.swift */,
 				0D04E9652C4D582400FC940F /* Assets.xcassets */,
 				0D04E9672C4D582400FC940F /* Preview Content */,
@@ -128,6 +154,99 @@
 				0D04E97E2C4D582400FC940F /* thiiinkUITestsLaunchTests.swift */,
 			);
 			path = thiiinkUITests;
+			sourceTree = "<group>";
+		};
+		0D04E98B2C4D58A600FC940F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				0D04E98C2C4D58AD00FC940F /* Views */,
+				0DCBB3642C4D59C0006CCFF4 /* Extensions */,
+				0DCBB3672C4D59E2006CCFF4 /* Animations */,
+				0DCBB36C2C4D5A0E006CCFF4 /* DataContainers */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		0D04E98C2C4D58AD00FC940F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D04E98D2C4D58D500FC940F /* SubViews */,
+				0D04E95F2C4D582300FC940F /* thiiinkApp.swift */,
+				0D04E9612C4D582300FC940F /* HomeView.swift */,
+				0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D04E98D2C4D58D500FC940F /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				0D04E98E2C4D58DD00FC940F /* GameView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		0DCBB3532C4D5980006CCFF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB3522C4D5980006CCFF4 /* Guess.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DCBB3552C4D5980006CCFF4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB3542C4D5980006CCFF4 /* WordleDataModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DCBB35B2C4D5980006CCFF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB3562C4D5980006CCFF4 /* GuessView.swift */,
+				0DCBB3572C4D5980006CCFF4 /* KeyboardView.swift */,
+				0DCBB3582C4D5980006CCFF4 /* LetterButtonView.swift */,
+				0DCBB3592C4D5980006CCFF4 /* ToastView.swift */,
+				0DCBB35A2C4D5980006CCFF4 /* WordyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DCBB35C2C4D5980006CCFF4 /* Wordy */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB3532C4D5980006CCFF4 /* Model */,
+				0DCBB3552C4D5980006CCFF4 /* ViewModels */,
+				0DCBB35B2C4D5980006CCFF4 /* Views */,
+			);
+			path = Wordy;
+			sourceTree = "<group>";
+		};
+		0DCBB3642C4D59C0006CCFF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB3652C4D59C8006CCFF4 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0DCBB3672C4D59E2006CCFF4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB3682C4D59EC006CCFF4 /* Shake.swift */,
+				0DCBB36A2C4D59F5006CCFF4 /* FlipView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		0DCBB36C2C4D5A0E006CCFF4 /* DataContainers */ = {
+			isa = PBXGroup;
+			children = (
+				0DCBB36D2C4D5A15006CCFF4 /* Global.swift */,
+			);
+			path = DataContainers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +379,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D04E9622C4D582300FC940F /* ContentView.swift in Sources */,
+				0D04E9622C4D582300FC940F /* HomeView.swift in Sources */,
+				0DCBB36B2C4D59F5006CCFF4 /* FlipView.swift in Sources */,
+				0DCBB3602C4D5980006CCFF4 /* KeyboardView.swift in Sources */,
 				0D04E9642C4D582300FC940F /* Item.swift in Sources */,
+				0DCBB3692C4D59EC006CCFF4 /* Shake.swift in Sources */,
+				0D04E98F2C4D58DD00FC940F /* GameView.swift in Sources */,
+				0DCBB3622C4D5980006CCFF4 /* ToastView.swift in Sources */,
+				0DCBB3662C4D59C8006CCFF4 /* Color.swift in Sources */,
+				0DCBB36E2C4D5A15006CCFF4 /* Global.swift in Sources */,
 				0D04E9602C4D582300FC940F /* thiiinkApp.swift in Sources */,
+				0DCBB3702C4D5A96006CCFF4 /* Settings.swift in Sources */,
+				0DCBB35F2C4D5980006CCFF4 /* GuessView.swift in Sources */,
+				0DCBB3632C4D5980006CCFF4 /* WordyView.swift in Sources */,
+				0DCBB35E2C4D5980006CCFF4 /* WordleDataModel.swift in Sources */,
+				0DCBB3612C4D5980006CCFF4 /* LetterButtonView.swift in Sources */,
+				0DCBB35D2C4D5980006CCFF4 /* Guess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
