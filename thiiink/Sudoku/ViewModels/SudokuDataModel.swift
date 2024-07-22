@@ -17,7 +17,7 @@ class SudokuDataModel: ObservableObject {
     }
     
     init() {
-        generateSudoku(difficulty: .hard)
+        generateSudoku(difficulty: .extreme)
     }
     
     func generateSudoku(difficulty: Difficulty) {
