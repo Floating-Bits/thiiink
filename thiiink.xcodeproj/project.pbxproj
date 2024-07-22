@@ -31,6 +31,7 @@
 		0DCBB36E2C4D5A15006CCFF4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36D2C4D5A15006CCFF4 /* Global.swift */; };
 		0DCBB3702C4D5A96006CCFF4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */; };
 		0DFAC8952C4E70210095B21C /* SudokuDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFAC8942C4E70210095B21C /* SudokuDataModel.swift */; };
+		0DFAC8982C4E71B90095B21C /* SudokuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFAC8972C4E71B90095B21C /* SudokuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		0DCBB36D2C4D5A15006CCFF4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		0DFAC8942C4E70210095B21C /* SudokuDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuDataModel.swift; sourceTree = "<group>"; };
+		0DFAC8972C4E71B90095B21C /* SudokuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 		0DFAC8922C4E4DF00095B21C /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
+				0DFAC8962C4E71AC0095B21C /* Views */,
 				0DFAC8932C4E70100095B21C /* ViewModels */,
 			);
 			path = Sudoku;
@@ -282,6 +285,14 @@
 				0DFAC8942C4E70210095B21C /* SudokuDataModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0DFAC8962C4E71AC0095B21C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DFAC8972C4E71B90095B21C /* SudokuView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,6 +438,7 @@
 				0DCBB36E2C4D5A15006CCFF4 /* Global.swift in Sources */,
 				0D04E9602C4D582300FC940F /* thiiinkApp.swift in Sources */,
 				0DCBB3702C4D5A96006CCFF4 /* Settings.swift in Sources */,
+				0DFAC8982C4E71B90095B21C /* SudokuView.swift in Sources */,
 				0DCBB35F2C4D5980006CCFF4 /* GuessView.swift in Sources */,
 				0DCBB3632C4D5980006CCFF4 /* WordyView.swift in Sources */,
 				0DFAC8952C4E70210095B21C /* SudokuDataModel.swift in Sources */,
