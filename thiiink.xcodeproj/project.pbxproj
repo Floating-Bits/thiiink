@@ -30,6 +30,7 @@
 		0DCBB36B2C4D59F5006CCFF4 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36A2C4D59F5006CCFF4 /* FlipView.swift */; };
 		0DCBB36E2C4D5A15006CCFF4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36D2C4D5A15006CCFF4 /* Global.swift */; };
 		0DCBB3702C4D5A96006CCFF4 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */; };
+		0DFAC8952C4E70210095B21C /* SudokuDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFAC8942C4E70210095B21C /* SudokuDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		0DCBB36A2C4D59F5006CCFF4 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		0DCBB36D2C4D5A15006CCFF4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		0DCBB36F2C4D5A96006CCFF4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		0DFAC8942C4E70210095B21C /* SudokuDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,8 +271,17 @@
 		0DFAC8922C4E4DF00095B21C /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
+				0DFAC8932C4E70100095B21C /* ViewModels */,
 			);
 			path = Sudoku;
+			sourceTree = "<group>";
+		};
+		0DFAC8932C4E70100095B21C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0DFAC8942C4E70210095B21C /* SudokuDataModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +429,7 @@
 				0DCBB3702C4D5A96006CCFF4 /* Settings.swift in Sources */,
 				0DCBB35F2C4D5980006CCFF4 /* GuessView.swift in Sources */,
 				0DCBB3632C4D5980006CCFF4 /* WordyView.swift in Sources */,
+				0DFAC8952C4E70210095B21C /* SudokuDataModel.swift in Sources */,
 				0DCBB35E2C4D5980006CCFF4 /* WordleDataModel.swift in Sources */,
 				0DCBB3612C4D5980006CCFF4 /* LetterButtonView.swift in Sources */,
 				0DCBB35D2C4D5980006CCFF4 /* Guess.swift in Sources */,
