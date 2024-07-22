@@ -60,30 +60,44 @@ struct WordyView: View {
             set: { dm.inPlay = !$0 }
         )) {
             VStack {
-                Text("\(dm.toastWords[dm.tryIndex])!")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .padding(.top)
-                    .fontDesign(.rounded)
+                if (dm.tryIndex <= 5) {
+                    Text("\(dm.toastWords[dm.tryIndex])!")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(.top)
+                        .fontDesign(.rounded)
+                } else {
+                    Text("Game Over!")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .padding(.top)
+                        .fontDesign(.rounded)
+                }
                 Spacer()
-                Image(systemName: "fireworks")
-                    .symbolEffect(.bounce, value: bounceToggle)
-                    .fontWeight(.semibold)
-                    .font(.system(size: 80))
-                    .symbolRenderingMode(.palette)
-                    .foregroundStyle(.yellow, .orange)
-                    .onAppear {
-                        bounceToggle.toggle()
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                if (dm.tryIndex <= 5) {
+                    Image(systemName: "fireworks")
+                        .symbolEffect(.bounce, value: bounceToggle)
+                        .fontWeight(.semibold)
+                        .font(.system(size: 80))
+                        .symbolRenderingMode(.palette)
+                        .foregroundStyle(.yellow, .orange)
+                        .onAppear {
                             bounceToggle.toggle()
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                bounceToggle.toggle()
+                            }
+                            DispatchQueue.main.asyncAfter(deadline:.now() +  1.0) {
+                                bounceToggle.toggle()
+                            }
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                                bounceToggle.toggle()
+                            }
                         }
-                        DispatchQueue.main.asyncAfter(deadline:.now() +  1.0) {
-                            bounceToggle.toggle()
-                        }
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
-                            bounceToggle.toggle()
-                        }
-                    }
+                } else {
+                    Text("❌")
+                        .fontWeight(.semibold)
+                        .font(.system(size: 80))
+                }
                 Spacer()
                 Button {
                     dm.newGame()
