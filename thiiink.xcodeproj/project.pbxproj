@@ -127,9 +127,9 @@
 		0D04E95E2C4D582300FC940F /* thiiink */ = {
 			isa = PBXGroup;
 			children = (
-				0DFAC8922C4E4DF00095B21C /* Sudoku */,
 				0D0728C92C4D7C55008F06E5 /* Info.plist */,
 				0D04E98B2C4D58A600FC940F /* General */,
+				0DFAC8922C4E4DF00095B21C /* Sudoku */,
 				0DCBB35C2C4D5980006CCFF4 /* Wordy */,
 				0D04E9632C4D582300FC940F /* Item.swift */,
 				0D04E9652C4D582400FC940F /* Assets.xcassets */,
