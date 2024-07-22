@@ -127,6 +127,7 @@
 		0D04E95E2C4D582300FC940F /* thiiink */ = {
 			isa = PBXGroup;
 			children = (
+				0DFAC8922C4E4DF00095B21C /* Sudoku */,
 				0D0728C92C4D7C55008F06E5 /* Info.plist */,
 				0D04E98B2C4D58A600FC940F /* General */,
 				0DCBB35C2C4D5980006CCFF4 /* Wordy */,
@@ -263,6 +264,13 @@
 				0D0728CA2C4D7F6C008F06E5 /* wordly.txt */,
 			);
 			path = DataContainers;
+			sourceTree = "<group>";
+		};
+		0DFAC8922C4E4DF00095B21C /* Sudoku */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sudoku;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
