@@ -14,6 +14,8 @@ struct WordyView: View {
     
     @State private var bounceToggle: Bool = false
     
+    @Environment(\.modelContext) var modelContext
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -94,12 +96,13 @@ struct WordyView: View {
                             }
                         }
                 } else {
-                    Text("❌")
+                    Image(systemName: "xmark")
                         .fontWeight(.semibold)
                         .font(.system(size: 80))
                 }
                 Spacer()
                 Button {
+                    modelContext.insert(Statistic(score: (dm.tryIndex + 1), game: "wordy", won: dm.won))
                     dm.newGame()
                 } label: {
                     HStack {

@@ -6,15 +6,23 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    
+    @Query var stats: [Statistic]
+    
     var body: some View {
         TabView {
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-            Text("Statistics")
+            VStack {
+                ForEach(stats) { stat in
+                    Text("\(stat.score)")
+                }
+            }
                 .tabItem {
                     Label("Statistics", systemImage: "number")
                 }

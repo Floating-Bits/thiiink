@@ -26,6 +26,7 @@ class WordleDataModel: ObservableObject {
     var inPlay = false
     var gameOver = false
     var toastWords = ["Genius", "Maginificent", "Impressive", "Splendid", "Great", "Phew"]
+    var won = false
     
     var gameStarted: Bool {
         !currentWord.isEmpty || tryIndex > 0
@@ -60,6 +61,7 @@ class WordleDataModel: ObservableObject {
         self.inPlay = true
         self.tryIndex = 0
         self.gameOver = false
+        self.won = false
     }
     
     func getRandomWord() -> String {
@@ -117,6 +119,7 @@ class WordleDataModel: ObservableObject {
             setCurrentGuessColors()
             showToast(with: toastWords[tryIndex] + "!")
             inPlay = false
+            won = true
         } else {
             if verifyWord() {
                 print("Valid word")
@@ -126,6 +129,7 @@ class WordleDataModel: ObservableObject {
                 if tryIndex == 6 {
                     gameOver = true
                     inPlay = false
+                    won = false
                     print("You lose")
                 }
             } else {
